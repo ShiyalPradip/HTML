@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<tital> Pradip </tital>
+	</head>
+	  <body bgcolor="pink" text="blue">
+	    <hr color="yellow" size="3"/>
+	       <h1 align="center"> Bouncing text in html </h1>
+		 <hr color="yellow" size="3"/>
+		  <marquee direction="down" width="250" height="200" behavior="alternate" style="border:5px solid red">
+		    <marquee behavior="alternate">
+		      <h1> Pradip </h1>
+		    </marquee>
+		  </marquee>
+</body>
+</html>
