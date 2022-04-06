@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title> Hyper link on Image </title>
+	</head>
+		<body>
+			<a href="https://www.youtube.com/" target="_blank">
+				<img src="YouTube.jpg" height="100"/>
+			</a>
+				<a href="https://www.google.com/" target="_blank">
+					<img src="Google.jpg" height="100"/>
+				</a>
+					<a href="https://www.facebook.com/" target="_blank">
+						<img src="Face_Book.jpg" height="100"/>
+					</a>
+						<a href="https://www.instagram.com/" target="_blank">
+							<img src="Instagram.jpg" height="100"/>
+						</a>
+		</body>
+</html>
