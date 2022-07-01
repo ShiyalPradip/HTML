@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title> Ragistration Page </title>
+		<link rel="stylesheet" href="CSS\Log_In_Botton.css"/>
+		<link rel="stylesheet" href="CSS\Registration.css"/>
+		<script type="text/javascript" src="JavaScript\Submit.js"></script>  
+	</head>
+		<body bgcolor="LemonChiffon">
+			<form class="Form">
+				<table border="0px" class="Table">
+					<tr class="Font">
+						<td> <label for="F_name"> First Name </label> </td>
+						<td> <input type="text" name="F_name" placeholder="Enter Your First Name"/> </td>
+					</tr>
+						<tr class="Font">
+							<td> <label for="L_name"> Last Name </label> </td>
+							<td> <input type="text" name="L_name" placeholder="Enter Your Last Name"/> </td>
+						</tr>
+							<tr class="Font">
+								<td> <label for="E-mail"> E-mail </td>
+								<td> <input type="text" E-mail="E-mail" placeholder="Enter Your E-mail"/> </td>
+							</tr>
+								<tr class="Font">
+									<td> <label for="Password"> Password </td>
+									<td> <input type="password" Password="Password" placeholder="Enter Password"/> </td>
+								</tr>
+									<tr class="Font">
+										<td> <label for="Phone No"> Phone No </label> </td>
+										<td> <input type="tel" name="number" placeholder="Enter Your Phone No" maxlength="10"/> </td>
+									</tr>
+										<tr class="Font">
+											<td> <label for="Gender"> Gender </label> </td>
+											<td> 
+												<input type="radio" name="gender" value="male"/> Male 
+												<input type="radio" name="gender" value="female"/> Female
+												<input type="radio" name="gender" value="other"/> Other 
+											</td>
+										</tr>
+											<tr class="Font">
+												<td> <label for="Contry"> Contry </label> </td>
+												<td>
+													<select name="Contry">
+														<option value="India"> India </option>
+														<option name="Armenia"> Armenia </option>
+														<option name="Canada"> Canada </option>
+														<option name="Colombia"> Colombia </option>
+														<option name="Egypt"> Egypt </option>
+														<option name="Germany"> Germany </option>
+													</select>
+												</td>
+											</tr>
+												<tr class="Font">
+													<td> <label for="DOB"> DOB </td>
+													<td> <input type="date"/> </td>
+												</tr>
+													<tr class="Font">
+														<td> <label for="address"> Address </label> </td>
+														<td> <textarea rows="4" cols="40"> </textarea>
+													</tr>
+														<tr align="center">
+															<td align="center"> <input class="Log_In" type="button" value="Submit" onclick="Submit()"/> </td>
+															<td> <input class="Log_In" type="reset" value="Clear"/> </td>
+														</tr>
+				</table>
+			</form>
+		</body>
+</html>
